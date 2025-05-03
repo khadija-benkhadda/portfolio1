@@ -138,7 +138,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               darkMode ? 'shadow-[0_0_30px_rgba(59,130,246,0.3)]' : 'shadow-[0_0_30px_rgba(37,99,235,0.15)]'
             } transition-all duration-300`}>
               <img 
-                src="/public/abd.jpg" 
+                src="/abd.jpg" 
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
