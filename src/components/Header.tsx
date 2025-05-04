@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled 
-          ? `bg-white shadow-md ${darkMode ? 'bg-gray-900 shadow-gray-800' : 'bg-white shadow-gray-200'}` 
+          ? ` shadow-md ${darkMode ? 'bg-gray-900 shadow-gray-800' : 'bg-white shadow-gray-200'}` 
           : 'bg-transparent'
       } ${darkMode ? 'text-white' : 'text-gray-800'}`}
     >
